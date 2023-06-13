@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #935fd3;
+  color: #38343d;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  padding: 24px;
+  height: 594px;
+  width: 701px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 38px 38px 16px 38px;
+}
+
+.inicial {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+hr {
+  border: solid 1px #f4effa;
+  margin: 16px 0;
+}
+
+.começo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px;
+}
+
+.container {
+  margin-top: 38px;
+  margin-bottom: 19px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.botao {
+  width: 625px;
+  margin-top: 8px;
+}
+
+.botao input {
+  height: 66.31px;
+  border: 1.18412px solid #e1e1e6;
+  border-radius: 2.36824px;
+  width: 625px;
+  font-family: "IBM Plex Sans", sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.ultimo {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.button {
+  width: 187.09px;
+  height: 65.89px;
+  border: 1.18412px solid #633bbc;
+  color: #633bbc;
+  font-family: "IBM Plex Sans", sans-serif;
+  border-radius: 7px;
+  font-size: 18px;
+}
+
+.button__secundario {
+  width: 187.09px;
+  height: 65.89px;
+  border: 1.18412px solid #633bbc;
+  color: white;
+  background-color: #633bbc;
+  font-family: "IBM Plex Sans", sans-serif;
+  border-radius: 7px;
+  font-size: 18px;
+}
